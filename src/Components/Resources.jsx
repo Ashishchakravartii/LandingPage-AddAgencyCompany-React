@@ -1,7 +1,7 @@
 import React from "react";
 import { BsArrowUpRightCircle } from "react-icons/bs";
-const LandingPage = () => {
-  const url = `https://images.unsplash.com/photo-1536183922588-166604504d5e?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`;
+const Resources = () => {
+  const url = `https://images.unsplash.com/photo-1437751059337-ea72d4f73fcf?q=80&w=2061&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`;
   return (
     <div
       style={{
@@ -19,10 +19,10 @@ const LandingPage = () => {
         insights into your audiences like never before.
       </p>
       <button className="btn text-light border-dark p-2 ps-4 pe-4 ">
-        Let's Explore <BsArrowUpRightCircle className=""/>
+        Let's Explore <BsArrowUpRightCircle className="" />
       </button>
     </div>
   );
 };
 
-export default LandingPage;
+export default Resources;
